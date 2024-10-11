@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Empresa.com - Noticias</title>
+<title>Empresa.com - Contato</title>
 <link rel="stylesheet" href="css.css">
 </head>
 <body>
@@ -21,16 +21,20 @@
 </th>
 </tr>
 </table>
-</div>
-<br>
-<h1>Notícias:</h1><br>
-<table>
-  <tr>
-    <th><img src="https://i.insider.com/649afcb5867d960019d93090?width=700" width="300px" height="200px"></th>
-  </tr>
-  <tr>
-    <td><h3>Valor da empresa sobe em 1000%</h3></td>
-  </tr>
-</table>
+</div><br>
+
+<h2>Formulário de Contato</h2>
+
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Nome:<br>
+<input type="text" name="name" required><br>
+E-mail:<br>
+<input type="text" name="mail" required><br>
+Conteúdo:<br>
+<input type="text" name="comment" size="50" required><br><br>
+<input class="submit" type="submit" value="Enviar">
+<input class="submit" type="reset" value="Limpar">
+</form>
+
 </body>
 </html>
