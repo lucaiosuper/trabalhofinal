@@ -1,13 +1,7 @@
-<?php
-session_start();
+<html>
+<body>
 
-if(isset($_POST['submit'])){
-    //collect form data
-    $_SESSION['name'] = $_POST['name'];
-    $_SESSION['email'] = $_POST['email'];
-}
+Seu e-mail, <?php echo $_POST["email"]; ?> foi registrado
 
-echo $_SESSION['name'];
-echo $_SESSION['email'];
-
-?>
+</body>
+</html>
